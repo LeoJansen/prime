@@ -1,10 +1,14 @@
-import React from 'react'
-import './navbar.css'
+import React from "react";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <div className="gpt3__navbar">
+      <div className="gpt3__navbar-links">
+        <div className="gpt3__navbar-links_logo"></div>
+      </div>
+    </div>
+  );
+};
 
-export default Navbar
+export default Navbar;
