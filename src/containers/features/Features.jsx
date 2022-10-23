@@ -1,24 +1,24 @@
 import React from 'react'
 import { Feature } from '../../components'
-import './features.css'
+import './features.scss'
 
 const featuresData = [
-  {title: "Improving end distrusts instantly ", text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'},
-  {title: "Become the tended active", text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to."},
-  {title:"Message or am nothing", text:"Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address."},
-  {title: "Really boy law county", text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush."}
+  {title: "Como funciona a retífica do seu motor?", text: "Conforme rege a norma ABNT 13032,  o serviço de retífica , é realizada a substituição das peças desgastadas por peças novas.  Porém as peças mais robustas e essenciais do seu motor como bloco, virabrequim, cabeçotes e bielas, serão submetidas a um processo preciso de retífica e ficarão como novas. "},
+  {title: "Você já tem um mecânico da sua confiança? ", text: 'Não tem problema! A gente busca seu motor na oficina dele, fazemos todos os reparos e depois o entregamos para que ele mesmo monte.'},
+  {title:"Você é mecânico?", text:" Conte com nossa experiência e estrutura, aliados a confiança e comodidade para agregar valor a sua oficina. Entre em contato conosco, temos parcerias com oficinas mecânica e profissionais liberais."},
+  
 
 ]
 
 const Features = () => {
   return (
     <div className='gpt3__features section__padding'>
-      <div className='gpt3__features-heading'>
-        <h1 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
-        <p>Request Early Access to Get Started</p>
+      <div className='heading'>
+        <h1 className='gradient__text'>A parceria que você precisa está aqui. Acesse nossas redes para nos conhecer melhor.</h1>
+        <p>Prime Retífica</p>
 
       </div>
-      <div className='gpt__features-container'>
+      <div className='container'>
         {featuresData.map((item, index) => (
            <Feature title={item.title} text={item.text} key={index}/> 
         ))}

@@ -1,8 +1,12 @@
-import google from '../../assets/google.png';
-import slack from '../../assets/slack.png';
-import atlassian from '../../assets/atlassian.png';
-import dropbox from '../../assets/dropbox.png';
-import shopify from '../../assets/shopify.png';
+import peugeot from '../../assets/peugeot.png';
+import nissan from '../../assets/nissan.png';
+import ford from '../../assets/ford.png';
+import chevrolet from '../../assets/chevrolet.png';
+import renault from '../../assets/renault.png';
+import toyota from '../../assets/toyota.png';
+import volkswagen from '../../assets/volkswagen2.png';
+import bmw from '../../assets/bmw.png';
 
 
-export { google, slack, atlassian, dropbox, shopify }
+
+export { peugeot, nissan, ford, chevrolet, renault, toyota, volkswagen, bmw }

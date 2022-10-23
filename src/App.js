@@ -1,7 +1,7 @@
 import React from "react";
 import { Article, Brand, CTA, Feature, Navbar } from "./components";
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3} from "./containers";
-import "./App.css";
+import "./App.scss";
 const App = () => {
   return (
     <div className="App">
@@ -10,7 +10,7 @@ const App = () => {
         <Header />
       </div>
       <Brand />
-      <WhatGPT3 />
+      
       <Features />
       <Possibility />
       <CTA />

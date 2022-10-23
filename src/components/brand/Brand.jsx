@@ -1,25 +1,37 @@
 import React from 'react'
-import {google,slack,atlassian,dropbox,shopify} from './imports'
-import './brand.css'
+import {peugeot, nissan, ford, chevrolet, renault, toyota, volkswagen , bmw} from './imports'
+import './brand.scss'
 
 const Brand = () => {
   return (
     <div className='gpt3__brand section__padding'>
-      <div>
-        <img src={google} alt="google" />
+      <div className='peugeot'>
+        <img src={peugeot} alt="google" />
       </div>
-      <div>
-        <img src={slack} alt="slack" />
+      <div className='nissan'>
+        <img src={nissan} alt="slack" />
       </div>
-      <div>
-        <img src={atlassian} alt="atlassian" />
+      <div className='ford'>
+        <img src={ford} alt="atlassian" />
       </div>
-      <div>
-        <img src={dropbox} alt="dropbox" />
+      <div className='chevrolet'>
+        <img src={chevrolet} alt="dropbox" />
       </div>
-      <div>
-        <img src={shopify} alt="shopify" />
+      <div className='toyota'>
+        <img src={toyota} alt="shopify" />
       </div>
+      <div className='renault'>
+        <img src={renault} alt="shopify" />
+      </div>
+      <div className='volkswagen'>
+        <img src={volkswagen} alt="shopify" />
+      </div>
+
+      <div className='bmw'>
+        <img src={bmw} alt="shopify" />
+      </div>
+
+
     </div>
   )
 }

@@ -1,0 +1,84 @@
+.gpt3__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    div {
+        display: flex;
+        flex-wrap: wrap;
+
+
+       
+        margin:  0 2rem;
+  
+
+        justify-content: center;
+        align-items: center;
+
+        img {
+            
+            
+            width: 100px;
+            height: 100px;
+            opacity: 0.7;
+            transition: all 0.4s ease-in-out;
+        }
+
+    }
+
+    .peugeot {
+        img {
+            filter: invert(1) opacity(0.5);
+        }
+    }
+
+    .nissan {
+        img {
+            filter: opacity(0.5);
+        }
+    }
+
+    .ford {
+        img {
+            filter: opacity(0.5) invert(1);
+        }
+    }
+
+    .chevrolet {
+        img {
+            filter: opacity(0.5) grayscale(0.9) invert(0.8);
+        }
+    }
+
+    .renault {
+        img {
+            filter: opacity(0.7) grayscale(0.9) invert(0.8);
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .toyota {
+        img {
+            filter: opacity(0.6) invert(0.1);
+        }
+    }
+
+    .volkswagen {
+        img {
+            filter: opacity(0.5) grayscale(1);
+        }
+    }
+
+    .bmw {
+        img {
+            width: 80px;
+            height: 80px;
+            filter: opacity(0.5) grayscale(1);
+        }
+    }
+
+
+
+}
