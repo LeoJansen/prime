@@ -1,6 +1,6 @@
 import React from "react";
 import partsChecked from "../../assets/carLight.jpg";
-import {bielas, cabecotes, bloco, virabrequim, bombaDeOleo} from '../../assets/constants'
+import {bielas, cabecotes, bloco, virabrequim, bombaDeOleo} from '../../assets/constants/parts'
 
 import Part from "../../components/part/Part";
 import "./partsChecked.scss";
