@@ -21,7 +21,7 @@ const Testimonials = () => {
       {testimonials.length && (
         <>
           <div className="app__testimonial-item">
-            <img src={backlogo} alt="testimonial"/>
+            <img src={testimonials[currentIndex].imgUrl} alt="testimonial"/>
             <div className="app__testimonial-content">
               <p className="p-text">{testimonials[currentIndex].feedback}</p>
               <div>
