@@ -12,8 +12,9 @@ const App = () => {
       <Brand />
       
       <Features />
-      <PartsChecked />
       <Testimonials/>
+      <PartsChecked />
+      
 
       <CTA />
       <Blog />
