@@ -1,6 +1,6 @@
 import React from "react";
 import { Article, Brand, CTA, Feature, Navbar } from "./components";
-import { Blog, Features, Footer, Header, Possibility, WhatGPT3} from "./containers";
+import { Blog, Features, Footer, Header, PartsChecked, WhatGPT3} from "./containers";
 import "./App.scss";
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Brand />
       
       <Features />
-      <Possibility />
+      <PartsChecked />
       <CTA />
       <Blog />
       <Footer />
