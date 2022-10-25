@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { testimonials } from "../../assets/constants/testimonialsArrays";
-import carLight from '../../assets/carLight.jpg'
+
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
 import "./Testimonials.scss";
