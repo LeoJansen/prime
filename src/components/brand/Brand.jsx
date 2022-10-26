@@ -4,7 +4,7 @@ import './brand.scss'
 
 const Brand = () => {
   return (
-    <div className='gpt3__brand section__padding'>
+    <div className='gpt3__brand'>
       <div className='peugeot'>
         <img src={peugeot} alt="google" />
       </div>
