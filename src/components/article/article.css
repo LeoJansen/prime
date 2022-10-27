@@ -3,19 +3,31 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    background: var(--color-footer);
+    background: #1f5aff21;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.705);
+    
+    
 }
 
 .gpt3__blog-container_article-image {
     width: 100%;
     height: auto;
     background: var(--color-footer);
+    border-radius: 3px;
+    
     
 }
 
 .gpt3__blog-container_article-image img{
     width: 100%;
     height: auto;
+    -webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
 }
 
 .gpt3__blog-container_article-content {
@@ -24,6 +36,14 @@
     justify-content: space-between;
     padding: 1rem 1.5rem;
     height: 100%;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+ 
+    
 }
 
 .gpt3__blog-container_article-content p {
@@ -51,7 +71,7 @@
 
 @media screen and (max-width:550px) {
     .gpt3__blog-container_article-content h3 {
-        font-size: 18px;
+        font-size: 13px;
         line-height: 25px;
     }
 }

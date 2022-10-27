@@ -1,10 +1,11 @@
 .gpt3__feature {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: space-around;
     align-content: stretch;
     flex-direction: row;
+    padding: 1rem 0rem;
     
     
     .title {
@@ -20,7 +21,7 @@
 
         h1 {
             font-family: var(--font-family);
-            margin-left: 0.21rem;
+            
             font-weight: 600;
             font-size: 16px;
             
