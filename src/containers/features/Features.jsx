@@ -14,7 +14,7 @@ const Features = () => {
   return (
     <div className='gpt3__features'>
       <div className='heading'>
-        <h1 className='gradient__text'>A parceria que você precisa está aqui. Acesse nossas redes para nos conhecer melhor.</h1>
+        <h1 className='gradient__text'>A parceria que você precisa está aqui.</h1>
         <p>Prime Retífica</p>
 
       </div>

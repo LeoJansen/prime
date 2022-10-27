@@ -1,18 +1,25 @@
-import React from 'react'
-import './article.css'
+import React from 'react';
+import { BsFillCheckSquareFill } from "react-icons/bs";
 
-const Article = ({imgUrl, date, title}) => {
+
+import './article.scss';
+
+const Article = ({imgUrl, itens}) => {
   return (
-    <div className='gpt3__blog-container_article'>
-        <div className='gpt3__blog-container_article-image'>
+    <div className='gpt3__blog-container_article gradient__bg2'>
+        <div className='image'>
             <img src={imgUrl} alt="blog" />
         </div>
-        <div className="gpt3__blog-container_article-content gradient__bg2" >
+        <div className="content" >
             <div>
-                <p>{date}</p>
-                <h3>{title}</h3>
+                <h3 className="gradient__text3">Ítens de Verificação</h3>
             </div>
-            <p>Read Full Article</p>
+            {itens?.map((item) => (
+              <div className="item">
+                 <BsFillCheckSquareFill  className="icon"/> <p>{item.text}</p>
+              </div>
+            ))}
+            
         </div>
     </div>
   )
