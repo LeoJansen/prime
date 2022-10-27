@@ -1,0 +1,131 @@
+.gpt3__blog-container_article {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #1f5aff21;
+    border-radius: 3px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.795);
+    border: 2px solid rgba(12, 8, 43, 0.795);
+    justify-content: center;
+    
+
+    .image {
+        width: 100%;
+        height: auto;
+        background:transparent;
+        border-radius: 3px;
+
+        img{
+            width: 100%;
+            height: auto;
+            -webkit-border-top-left-radius: 3px;
+            -webkit-border-top-right-radius: 3px;
+            -moz-border-radius-topleft: 3px;
+            -moz-border-radius-topright: 3px;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            border-bottom: groove 5px rgba(24, 62, 233, 0.425);
+        }
+        
+        
+    }
+
+    .content {
+
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+    
+        height: 100%;
+        -webkit-border-bottom-left-radius: 3px;
+        -webkit-border-bottom-right-radius: 3px;
+        -moz-border-radius-bottomleft: 3px;
+        -moz-border-radius-bottomright: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+
+
+       
+
+        h3 {
+            font-family: var(--font-family);
+            font-weight: 800;
+            font-size: 13px;
+            line-height: 30px;
+            text-align: center;
+           
+            margin-bottom: 3rem;
+            cursor: pointer;
+            justify-self: center;
+        }
+
+        p:last-child {
+            cursor: pointer;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: row;
+           
+           width: 100%;
+            margin:0.51rem;
+            align-items: flex-start;
+
+            
+         
+            p {
+                
+                font-family: var(--font-family);
+                font-weight: 600;
+                font-size: 13px;
+                text-align: justify;
+                
+               
+                color: #FFFFFF;
+                
+            }
+
+            .icon {
+                align-self: center;
+                flex-shrink: 0;
+                margin-right:1rem;
+                font-size: 20px;
+                color:rgb(118, 138, 240);
+                font-weight: bold;
+                border: 1.5px solid rgba(10, 130, 243, 0.404);
+                border-radius: 4px;
+                background-color: rgb(0, 0, 0);
+            }
+          
+          
+        }
+     
+        
+    }
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:550px) {
+    .content h3 {
+        font-size: 13px;
+        line-height: 25px;
+    }
+}
