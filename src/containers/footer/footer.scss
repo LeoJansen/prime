@@ -1,0 +1,255 @@
+.gpt3__footer {
+  border: 2px solid rgba(0, 8, 8, 1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+  background:linear-gradient(180deg, rgb(1, 0, 23) 30%, rgb(0, 65, 187) 100%);
+
+  p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+   
+   
+  }
+
+  h4 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #acb6ee;
+    letter-spacing: 1px;
+    
+   
+    margin-bottom: 1rem;
+  }
+
+  .heading {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 4rem 2rem;
+
+    h1 {
+      font-family: var(--font-family);
+      font-weight: 800;
+      font-size: 58px;
+      line-height: 75px;
+      text-align: center;
+      letter-spacing: -0.04em;
+     
+    }
+
+   
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid rgba(30, 65, 141,0.6);
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    
+    svg {
+      color:  rgba(30, 65, 141,0.8);
+      margin-right: 1rem;
+      font-size: 40px;
+
+    }
+
+    &:hover {
+      background-color: rgba(23, 88, 199, 0.171);
+
+      svg,p {
+        color: rgba(201, 206, 216, 0.6);
+      }
+
+    }
+    
+  
+
+    
+
+    p {
+      font-size: 18px;
+      font-family: var(--font-family);
+      line-height: 21px;
+      letter-spacing: 2px;
+      font-weight: 300;
+      color: rgb(94, 173, 184);
+      word-spacing: 2px;
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    padding: 3rem;
+
+    .maps {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .funcionamento {
+
+    
+      div {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+
+     
+
+        h5 {
+          width:10%;
+          font-family: var(--font-family);
+          font-weight: 400;
+          font-size: 14px;
+          text-align: start;
+          margin: 0 1rem 0 0;
+          line-height: 1rem;
+          letter-spacing: 1px;
+          color:rgba(239, 241, 245, 0.877);  
+
+        }
+        
+       
+       
+
+        p {
+          width:40%;
+          line-height: 1.12rem;
+          color:rgba(132, 156, 204, 0.938);        
+
+          text-align: start;
+        }
+      }
+      
+    }
+
+
+
+    .dados {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      
+      p {
+        text-align: end;
+        color: rgba(207, 214, 224, 0.918);
+        line-height: 1rem;
+      } 
+
+
+    }
+
+  }
+
+  .copyright {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 1rem 1rem 1rem;
+    text-align: center;
+    width: 100%;
+
+    p {
+      font-family: var(--font-family);
+      font-size: 10px;
+      line-height: 14px;
+      letter-spacing:1px;
+      font-feature-settings: "liga" off;
+      color: #a7a1a1cb;
+    }
+
+    p:nth-child(1) {
+      align-self: center;
+      margin-left: 1rem;
+        
+      
+      
+     
+    }
+
+    p:nth-child(3) {
+      align-self: flex-end;
+      
+      font-size: 10px;
+      
+     
+    }
+  }
+  
+  
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+  .gpt3__footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .gpt3__footer-links div {
+    margin: 1rem 0;
+  }
+
+  .gpt3__footer-btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gpt3__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}

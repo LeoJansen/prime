@@ -1,5 +1,6 @@
 import React from 'react'
 import { Feature } from '../../components'
+import {motion} from 'framer-motion';
 import './features.scss'
 
 const featuresData = [
@@ -12,9 +13,12 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className='gpt3__features'>
+    <motion.div className='gpt3__features'
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 1 }}
+    >
       <div className='heading'>
-        <h1 className='gradient__text'>A parceria que você precisa está aqui.</h1>
+        <h1 className='gradient__text'>Coloque seu cabeçote na mão de quem realmente entende.</h1>
         <p>Prime Retífica</p>
 
       </div>
@@ -23,7 +27,7 @@ const Features = () => {
            <Feature title={item.title} text={item.text} key={index}/> 
         ))}
       </div>
-     </div>
+     </motion.div>
   )
 }
 
