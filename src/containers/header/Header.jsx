@@ -6,7 +6,10 @@ import "./header.scss";
 
 const Header = () => {
   return (
-    <div className="gpt3__header" id="Home">
+    <motion.div className="gpt3__header" id="Home"
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 0.5 }}
+    >
     <div className="content">
      <motion.div whileInView={{ x: [500, 0, 0, 0,0,0],  opacity: [0,0.5, 1,1,1,0.5] }}
         transition={{        
@@ -55,7 +58,7 @@ const Header = () => {
            
    </div> 
   
- </div>
+ </motion.div>
   );
 };
 

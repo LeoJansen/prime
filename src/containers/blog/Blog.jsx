@@ -1,12 +1,17 @@
 import React from "react";
 import Article from '../../components/article/Article'
+import {motion} from 'framer-motion';
 import { blog01, blog02, blog03, blog04, blog05 } from './imports'
-import './blog.scss'
 import { cabecotes } from "../../assets/constants/parts";
+
+import './blog.scss'
+
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog" id="blog">
+    <motion.div className="gpt3__blog" id="blog"
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 1 }}>
       <div className="heading">
         <h1 className="title"> Quer ter uma ideia de como funciona um <span>serviço qualificado</span> de retífica de motor?</h1>
       </div>
@@ -22,7 +27,7 @@ const Blog = () => {
         </div>    
           
       </div>
-    </div>
+    </motion.div>
   );
 };
 

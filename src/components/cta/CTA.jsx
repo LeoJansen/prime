@@ -1,10 +1,13 @@
 import React from "react";
+import {motion} from 'framer-motion';
 import { facebook, instagram, whats } from "../../assets/constants";
 import "./cta.scss";
 
 const CTA = () => {
   return (
-    <div className="gpt3__cta">
+    <motion.div className="gpt3__cta"
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 0.5 }}>
       <div className="gpt3__cta-content">
         
         <h3>Acesse nossas redes sociais </h3>
@@ -24,7 +27,7 @@ const CTA = () => {
         
         
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {motion} from 'framer-motion';
 import {peugeot, nissan, ford, chevrolet, renault, toyota, volkswagen , bmw} from './imports'
 import './brand.scss'
 
 const Brand = () => {
   return (
-    <div className='gpt3__brand'>
+    <motion.div className='gpt3__brand'
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 0.5 }}>
       <div className='peugeot'>
         <img src={peugeot} alt="google" />
       </div>
@@ -32,7 +35,7 @@ const Brand = () => {
       </div>
 
 
-    </div>
+    </motion.div>
   )
 }
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { testimonials } from "../../assets/constants/testimonialsArrays";
 
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-
+import {motion} from 'framer-motion';
 import "./Testimonials.scss";
 
 const Testimonials = () => {
@@ -17,7 +17,9 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="testimonial">
+    <motion.div className="testimonial"
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 0.5 }}>
     
      
       {testimonials.length && (
@@ -42,7 +44,7 @@ const Testimonials = () => {
           </div>
         </>
       )}
-    </div>
+    </motion.div>
   );
 };
 
