@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import {motion, useInView} from 'framer-motion';
 import logo from "../../assets/prime.png";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import "./navbar.scss";
@@ -17,9 +18,20 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true });
 
   return (
-    <div className="gpt3__navbar">
+    <motion.div className="gpt3__navbar"
+    ref={ref}
+    style={{
+     
+      opacity: isInView ? 1 : 0,
+      transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 11s"
+    }}
+
+    
+    >
       <div className="logo">
           <img src={logo} />
         </div>
@@ -46,7 +58,7 @@ const Navbar = () => {
         )}
 
       </div>
-    </div>
+    </motion.div>
   );
 };
 
