@@ -3,10 +3,10 @@
     flex-direction: row;
     background-image: url(../../assets/backlogo.jpg);
     background-size: cover;
-   
 
-    
-    
+
+
+
     height: 800px;
 
     .content {
@@ -17,26 +17,24 @@
         flex-direction: column;
         margin-left: 2rem;
         margin-top: 3rem;
+
         .quality {
             margin-top: 0.8rem;
             margin-bottom: 2px;
-           
-           
 
             h3 {
                 font-family: var(--font-family);
                 font-weight: 500;
-                
                 font-size: 40px;
                 line-height: 28px;
                 color: rgba(225, 252, 235, 0.404);
                 text-transform: uppercase;
-            letter-spacing: 0.4rem;
+                letter-spacing: 0.4rem;
                 margin-top: 1rem;
-                
-            }
 
+            }
         }
+
         .quest {
             margin-top: 5rem;
             display: flex;
@@ -50,17 +48,17 @@
                 font-weight: 800;
                 font-size: 62px;
                 line-height: 75px;
-                
+
                 margin-right: 2rem;
-                text-shadow: 0 2px 3px  rgba(1, 15, 6, 0.137);
+                text-shadow: 0 2px 3px rgba(1, 15, 6, 0.137);
             }
         }
-        
-        
 
-         
 
-    
+
+
+
+
 
 
     }
@@ -77,50 +75,17 @@
 
 
 
-
-
-.gpt3__header-content__people img {
-    width: 181.79px;
-    height: 38px;
-}
-
-
-.gpt3__header-content__people p {
-    margin: 0 0 0 1rem;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 38px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.gpt3__header-image {
-    width: auto;
-    flex: 1;
-    min-width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gpt3__header-image img{
-    width: 100%;
-    height: auto;
-}
-
-@media screen and (max-width:1050px){
+@media screen and (max-width:1000px) {
     .gpt3__header {
         flex-direction: column;
     }
 
-    .gpt3__header-content {
-        margin: 0 0 3rem;
+    .content {
+        
     }
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:650px) {
     .gpt3__header h1 {
         font-size: 48px;
         line-height: 60px;
@@ -147,7 +112,7 @@
 }
 
 
-@media screen and (max-width:490px){
+@media screen and (max-width:490px) {
     .gpt3__header h1 {
         font-size: 36px;
         line-height: 48px;
