@@ -7,9 +7,10 @@ import "./navbar.scss";
 const Menu = () => (
   <ul>
     <li> <a href="#home">Home</a></li>
-    <li><a href="#wgpt3">Quem Somos?</a></li>
-    <li><a href="#possibility">Localização</a></li>
-    <li><a href="#features">Contatos</a></li>
+    <li><a href="#feature">Nosso trabalho</a></li>
+    <li><a href="#testimonial">Nossos Parceiros</a></li>
+    <li><a href="#cta">Redes Sociais</a></li>
+    <li><a href="#footer">Contatos</a></li>
 
   </ul>
 )
@@ -21,8 +22,8 @@ const Navbar = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true });
 
-  return (
-    <motion.div className="gpt3__navbar"
+ 
+    /*<motion.div className="gpt3__navbar"
     ref={ref}
     style={{
      
@@ -31,7 +32,9 @@ const Navbar = () => {
     }}
 
     
-    >
+  >*/
+  return (
+  <div className="gpt3__navbar">
       <div className="logo">
           <img src={logo} />
         </div>
@@ -48,17 +51,16 @@ const Navbar = () => {
           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className="gpt3__navbar-menu_container scale-up-center">
-            <div className="gpt3__navbar-menu_container-links">
+          <div className="menu_container scale-up-center">
+            <div className="menu_container-links">
               <Menu />
             </div>
-            <div className="gpt3__navbar-menu_container-links-sign">
-            </div>
+            
           </div>
         )}
 
       </div>
-    </motion.div>
+    </div>
   );
 };
 

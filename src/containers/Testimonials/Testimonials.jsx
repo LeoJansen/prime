@@ -19,7 +19,7 @@ const Testimonials = () => {
   return (
     <motion.div className="testimonial"
     whileInView={{ opacity: [0, 1] }}
-    transition={{ duration: 0.5 }}>
+    transition={{ duration: 0.5 }} id="testimonial">
     
      
       {testimonials.length && (

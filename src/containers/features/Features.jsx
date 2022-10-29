@@ -16,6 +16,7 @@ const Features = () => {
     <motion.div className='gpt3__features'
     whileInView={{ opacity: [0, 1] }}
     transition={{ duration: 1 }}
+    id="feature"
     >
       <div className='heading'>
         <h1 className='gradient__text'>Coloque seu cabeçote na mão de quem realmente entende.</h1>

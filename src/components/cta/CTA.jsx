@@ -5,7 +5,7 @@ import "./cta.scss";
 
 const CTA = () => {
   return (
-    <motion.div className="gpt3__cta"
+    <motion.div className="gpt3__cta" id="cta"
     whileInView={{ opacity: [0, 1] }}
     transition={{ duration: 0.5 }}>
       <div className="gpt3__cta-content">

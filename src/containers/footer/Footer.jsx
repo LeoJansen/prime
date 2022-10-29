@@ -6,7 +6,7 @@ import "./footer.scss";
 
 const Footer = () => {
   return (
-    <motion.div className="gpt3__footer"  
+    <motion.div className="gpt3__footer" id="footer" 
     whileInView={{ opacity: [0, 1] }}
     transition={{ duration: 1 }}>
       <div className="heading">
