@@ -16,7 +16,7 @@ const Header = () => {
           initial="offscreen"
           whileInView="onscreen"
           className="quality">
-          <motion.div className="quality" variants={card1}>
+          <motion.div className="quality2" variants={card1}>
             <h3>Precisão</h3>
           </motion.div>
 
@@ -26,7 +26,7 @@ const Header = () => {
           whileInView="onscreen"
 
           className="quality">
-          <motion.div className="quality" variants={card2}>
+          <motion.div className="quality2" variants={card2}>
             <h3>Confiança</h3>
           </motion.div>
 
@@ -37,7 +37,7 @@ const Header = () => {
 
           className="quality"
         >
-          <motion.div className="quality" variants={card3}>
+          <motion.div className="quality2" variants={card3}>
             <h3>Profissionalismo</h3>
           </motion.div>
 
@@ -50,7 +50,7 @@ const Header = () => {
           className="quest"
 
         >
-          <motion.div variants={card4}>
+          <motion.div className="quest2" variants={card4}>
             <h1 className="gradient__text">
               Vamos consertar juntos?
             </h1>
