@@ -232,10 +232,18 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .testimonial {
+        height: 55rem;
+        background-size: cover;
+
+    }
+}
+
 @media screen and (max-width: 450px) {
     .testimonial {
         height: 50rem;
-        background-size: cover;
+ 
         .container {
             .testimonial-item {
            
