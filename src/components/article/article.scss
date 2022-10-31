@@ -160,6 +160,7 @@
 @media screen and (max-width:990px) {
     .gpt3__article {
         display: flex;
+        height: 25rem;
         
         align-content: flex-start;
         
@@ -167,7 +168,7 @@
         .image {
             display: flex;
             width: auto;
-            height: 50%;
+            height: 60%;
             img {
                 object-fit: cover;
             }
@@ -177,21 +178,25 @@
         .content {
             
             display: flex;
-            height: 8rem;
+            height:40%;
+            padding: 2rem 2rem ;
+            
             .content-title {
                
                  h3 {
                     margin:0;
                  }
             }
+
             .item {
-                margin-top: 0.81rem;
+                margin-top: 0.21rem;
                
                 p {
                     font-weight: 500;
                     font-size: 11px;
                 }
             }
+           
         }
        
     }
@@ -199,16 +204,82 @@
 
 
 
+@media screen and (max-width:650px) {
+    .gpt3__article {
+        width: 60%;
+        
 
+        .image{
+            height:50%;
+        }
 
+        .content {
+            padding: 1rem 1rem ;
+            height:40%;
+          
 
-
-
-
+            .item {
+                margin-top: 0.8rem;
+                
+               
+                p {
+                    font-weight: 500;
+                    font-size: 12px;
+                }
+            }
+          
+        }
+       
+    }
+}
 
 @media screen and (max-width:550px) {
-    .content h3 {
-        font-size: 13px;
-        line-height: 25px;
+    .gpt3__article {
+        width: 70%;
+        
+
+
+
+        .content {
+        
+          
+
+            .item {
+               
+                
+               
+                p {
+                    
+                }
+            }
+          
+        }
+       
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .gpt3__article {
+        width: 80%;
+        
+
+
+
+        .content {
+        
+          
+
+            .item {
+               
+                
+               
+                p {
+                    
+                }
+            }
+          
+        }
+       
     }
 }
