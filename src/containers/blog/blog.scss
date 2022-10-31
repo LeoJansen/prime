@@ -67,6 +67,30 @@
   
   .gpt3__blog {
 
+    .heading {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 5rem;
+  
+      h1 {
+        font-size: 45px;
+        line-height: 70px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        color: rgba(200, 215, 243, 0.8);
+      }
+  
+      span {
+        background: var(--gradient-text);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  
+    }
+
+    
+
     .container {
       
 
@@ -96,24 +120,67 @@
  
 }
 
+@media screen and (max-width: 800px) {
+  .gpt3__blog {
+
+    .heading {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 5rem;
+  
+      h1 {
+        font-size: 40px;
+        line-height: 65px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        color: rgba(200, 215, 243, 0.8);
+      }
+  
+      span {
+        background: var(--gradient-text);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  
+    }
+  }
+
+}
+
 @media screen and (max-width: 700px) {
-  .gpt3__blog-container_groupB {
-    grid-template-columns: repeat(1, 1fr);
+  .gpt3__blog {
+
+    .heading {
+      width: 90%;
+      align-self: center;
+      text-align: left;
+      margin-bottom: 5rem;
+      
+  
+      h1 {
+        font-size: 35px;
+        line-height: 60px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        color: rgba(200, 215, 243, 0.8);
+      }
+  
+      span {
+        background: var(--gradient-text);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  
+    }
   }
 
-  .gpt3__blog-container_groupA .gpt3__blog-container_article {
-    width: 100%;
-  }
-
-  .gpt3__blog-heading h1 {
-    font-size: 46px;
-    line-height: 52px;
-  }
 }
 
 @media screen and (max-width: 650px) {
   .gpt3__blog {
-    margin: 0;
+  
     padding: 0;
     .container {
       display: flex;
@@ -137,6 +204,7 @@
         justify-content: center;
         align-items: center;
         align-content: center;
+        grid-gap: 0;
         
       .container_groupC {
         width: 100%;
@@ -154,6 +222,25 @@
 
 @media screen and (max-width: 500px) {
   .gpt3__blog {
+
+    .heading {
+      width: 90%;
+      align-self: center;
+      text-align: left;
+      margin-bottom: 5rem;
+      
+  
+      h1 {
+        font-size: 30px;
+        line-height: 50px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        color: rgba(200, 215, 243, 0.8);
+      }
+  
+    
+  
+    }
 
     .container {
     
@@ -177,5 +264,25 @@
       }
     }
     
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gpt3__blog {
+
+    .heading {
+      
+  
+      h1 {
+        font-size: 25px;
+        line-height: 45px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        color: rgba(200, 215, 243, 0.8);
+      }
+  
+    
+  
+    }
   }
 }

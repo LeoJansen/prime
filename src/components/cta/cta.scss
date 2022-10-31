@@ -9,7 +9,7 @@
   background: var(--gradient-bar);
   box-shadow: 0 0 10px rgba(41, 42, 122, 0.8);
 
-  .gpt3__cta-content {
+  .content {
     display: flex;
     flex: 2;
 
@@ -25,16 +25,18 @@
 
   }
 
-  .gpt3__cta-btn {
+  .btns {
     display: flex;
     flex: 1;
     justify-content: space-around;
     transition: all 0.5s ease-in-out;
-
+    
 
 
     img {
+      display: flex;
       margin: 0;
+      
 
       width: 70px;
       height: 70px;
@@ -144,39 +146,216 @@
 
 
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1090px) {
   .gpt3__cta {
-    flex-direction: column;
-  }
 
-  .gpt3__cta-btn {
-    margin: 2rem 0 0;
+    .content {
+      flex:1;
+    }
+    .btns {
+      flex:1; 
+      .instagram, .whatsapp, .facebook {
+        width: 65px;
+        height: 65px;
 
-    img {
+        img {
+          width: 65px;
+          height: 65px;
+        }
 
-
-      width: 60px;
+      }
+      
+      
+   
 
     }
+
+  }
+
+ 
+}
+
+@media screen and (max-width: 990px) {
+  .gpt3__cta {
+
+    
+    .btns {
+    
+      .instagram, .whatsapp, .facebook {
+        width: 60px;
+        height: 60px;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+
+      }
+
+      
+      
+      
+   
+
+    }
+
+  }
+
+ 
+}
+
+@media screen and (max-width: 750px) {
+  .gpt3__cta {
+
+    
+    .btns {
+    
+      .instagram, .whatsapp, .facebook {
+        width: 50px;
+        height: 50px;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+
+      }
+
+      
+      
+      
+   
+
+    }
+
+  }
+
+ 
+}
+
+
+
+
+
+@media screen and (max-width: 650px) {
+  .gpt3__cta {
+    flex-direction: column;
+    padding: 2rem;
+    
+    .btns {
+      
+      padding: 1rem;
+      width: 100%;
+      justify-content: space-evenly;
+    
+      .instagram, .whatsapp, .facebook {
+        width: 50px;
+        height: 50px;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+
+      }
+
+      
+      
+      
+   
+
+    }
+
+  
+
   }
 }
 
 @media screen and (max-width: 550px) {
   .gpt3__cta {
-    margin: 4rem 2rem;
-
-    .gpt3__cta-btn {
-      img {
-        width: 50px;
-        height: auto;
-      }
+   padding: 1rem;
+   display: flex;
+   
+   .content {
+    
+    h3 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 45px;
     }
+   }
+   .bts{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    
+   }
+      
+  
+      
+   
+
+    }
+
+  
+
   }
 
-  .gpt3__cta-content h3 {
-    font-size: 18px;
-    line-height: 32px;
-  }
+  @media screen and (max-width: 500px) {
+
+    .gpt3__cta {
+      display: flex;
+     margin: 2rem 2rem 2rem 2rem;
+     padding: 0.5rem;
+     display: flex;
+     align-items: stretch;
+     width: 80%;
+     
+  
+     
+     
+     .content {
+      margin:0.5rem;
+      justify-content: center;
 
 
-}
+      h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+      }
+     }
+     .btns {
+      display: flex;
+      height: 40px;
+      padding: 0.5rem;
+    
+    
+      .instagram, .whatsapp, .facebook {
+        width: 40px;
+        height: 40px;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+
+      }
+
+      
+      
+      
+   
+
+    }
+        
+    
+        
+     
+  
+      }
+  
+    
+  
+    }
