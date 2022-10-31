@@ -61,6 +61,13 @@
 
 
 
+@media screen and (max-width: 900px) {
+
+    .title {
+        margin-right: 0;
+    }
+    
+}
 
 
 
@@ -71,18 +78,37 @@
 
 
 
-@media screen and (max-width: 550px) {
-    .gpt3__features-container__feature-title h1 {
-        font-size: 14px;
-        line-height: 22px;
+
+
+@media screen and (max-width: 500px) {
+    .gpt3__feature {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        
+
+        .title {
+            
+            width: 100%;
+            margin-right: 0;
+            max-width: 360px;
+            margin-bottom: 2rem;
+            
+                h1{
+                    width: 100%;
+                    text-align: left;
+                }
+               
+            
+        }
+        .text{
+
+            margin: 0;
+            p {
+                margin: 0;
+            }
+        }
+      
     }
 
-    .gpt3__features-container__feature-title p {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .gpt3__features-container__feature {
-        margin: 1rem 0;
-    }
 }

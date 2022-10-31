@@ -4,14 +4,14 @@ import './feature.scss'
 const Feature = ({ title, text }) => {
   return (
     <div className="gpt3__feature">
-    <div className="title">
-      <div />
-      <h1>{title}</h1>
+      <div className="title">
+        <div />
+        <h1>{title}</h1>
+      </div>
+      <div className="text">
+        <p>{text}</p>
+      </div>
     </div>
-    <div className="text">
-      <p>{text}</p>
-    </div>
-  </div>
   )
 }
 

@@ -6,12 +6,12 @@ import './article.scss';
 
 const Article = ({imgUrl, itens}) => {
   return (
-    <div className='gpt3__blog-container_article gradient__bg2'>
+    <div className='gpt3__article gradient__bg2'>
         <div className='image'>
             <img src={imgUrl} alt="blog" />
         </div>
         <div className="content" >
-            <div>
+            <div className="content-title">
                 <h3 className="gradient__text3">Ítens de Verificação</h3>
             </div>
             {itens?.map((item) => (
