@@ -8,183 +8,224 @@
     background-position: right;
     background-color: transparent;
     font-family: var(--font-family);
-    box-shadow: 0px -4px 5px rgba(7, 15, 22, 0.8);
-    border-radius: 0.5rem;
+ 
+
     height: 60rem;
     display: flex;
-    align-items: center;
+ 
     justify-content: center;
 
-    .backImg {
+    .container {
         display: flex;
-        flex-wrap: wrap;
-
-        img {
-            display: flex;
-            flex-wrap: wrap;
-
-            max-height: 100%;
-
-
-            object-fit: contain;
-        }
-
-
-    }
-
-
-
-}
-
-.testimonial-item {
-    width: 65%;
-    min-height: 360px;
-    border: solid 3px rgba(255, 255, 255, 0.02);
-    background-color: rgba(106, 120, 151, 0.116);
-    backdrop-filter: blur(10px);
-    --webkit-backdrop-filter: blur(4px);
-    box-shadow: 2px 0px 10px rgba(113, 148, 187, 0.219);
-    color: rgba(150, 150, 150, 0.8);
-    display: flex;
-    justify-content: space-around;
-
-    align-items: center;
-
-    flex-direction: row;
-
-    border-radius: 15px;
-
-    transition: all 0.3s ease-in-out;
-
-    img {
-        width: 200px;
-        height: auto;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-left: 2rem;
-
-    }
-
-    @media screen and (min-width: 2000px) {
-        min-height: 450px;
-
-        img {
-            width: 150px;
-            height: 150px;
-        }
-    }
-
-    @media screen and (max-width: 900px) {
-        width: 100%;
-
-        img {
-            width: 150px;
-            height: 150px;
-            margin-left: 1rem;
-        }
-    }
-
-    @media screen and (max-width: 600px) {
-        width: 90%;
         flex-direction: column;
-        height: 100%;
-
-        img {
-            margin-left: 0rem;
-        }
-    }
-}
-
-.app__testimonial-content {
-
-
-    max-width: 100%;
-    padding: 0 2rem;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-
-    p {
-        font-size: 1.25rem;
-        line-height: 2rem;
-        color: rgba(229, 247, 233, 0.8);
-        font-family: var(--font-base);
-        font-weight: 400;
-    }
-
-    h4 {
-        font-weight: 600;
-        color: rgba(108, 185, 248, 0.8);
-        margin-top: 2rem;
-    }
-
-    h5 {
-        font-weight: 400;
-        color: var(--gray-color);
-        margin-top: 5px;
-    }
-
-    @media screen and (max-width: 450px) {
-        padding: 0rem 0rem;
-
-    }
-
-    @media screen and (max-width: 600px) {
-        margin-top: 0;
-
-    }
-}
-
-.app__testimonial-btns {
-    flex-direction: row;
-    margin-top: 1rem;
-    display: flex;
-
-    div {
-        display: flex;
         justify-content: center;
         align-items: center;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        border: solid 2px rgba(12, 30, 68, 0.418);
-   /* ff 3.6+ */
-   background:-moz-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
-
-   /* safari 5.1+,chrome 10+ */
-   background:-webkit-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
-
-   /* opera 11.10+ */
-   background:-o-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
-
-   /* ie 10+ */
-   background:-ms-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
-
-   /* global 92%+ browsers support */
-   background:radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
-
-margin: 1rem;
-        transition: all 0.3s ease-in-out;
-
-        svg {
-            width: 20px;
-            height: 20px;
-            color: rgba(229, 247, 233, 0.8);
+       
+       
         
+        .testimonial-item {
+            width: 70%;
+            min-height: 360px;
+            border: solid 3px rgba(255, 255, 255, 0.02);
+            background-color: rgba(106, 120, 151, 0.116);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 2px 0px 10px rgba(113, 148, 187, 0.219);
+            color: rgba(150, 150, 150, 0.8);
+            display: flex;
+            justify-content: space-around;
+        
+            align-items: center;
+        
+            flex-direction: row;
+        
+            border-radius: 15px;
+        
+            transition: all 0.3s ease-in-out;
+        
+            img {
+                width: 200px;
+                height: auto;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-left: 2rem;
+        
+            }
+        
+            @media screen and (min-width: 2000px) {
+                min-height: 450px;
+        
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        
+    
+        
+           
+        
+            .content {
+        
+        
+                max-width: 100%;
+                padding: 0 2rem;
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+        
+                justify-content: space-around;
+                align-items: flex-start;
+                flex-wrap: wrap;
+        
+                p {
+                    font-size: 1.25rem;
+                    line-height: 2rem;
+                    color: rgba(229, 247, 233, 0.8);
+                    font-family: var(--font-base);
+                    font-weight: 400;
+                }
+        
+                h4 {
+                    font-weight: 600;
+                    color: rgba(108, 185, 248, 0.8);
+                    margin-top: 2rem;
+                }
+        
+                h5 {
+                    font-weight: 400;
+                    color: var(--gray-color);
+                    margin-top: 5px;
+                }
+        
+             
+            }
+        }
+    
+        .app__testimonial-btns {
+            flex-direction: row;
+            margin-top: 1rem;
+            display: flex;
+        
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                border: solid 2px rgba(12, 30, 68, 0.418);
+                /* ff 3.6+ */
+                background: -moz-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
+        
+                /* safari 5.1+,chrome 10+ */
+                background: -webkit-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
+        
+                /* opera 11.10+ */
+                background: -o-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
+        
+                /* ie 10+ */
+                background: -ms-radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
+        
+                /* global 92%+ browsers support */
+                background: radial-gradient(circle at 50% 50%, rgba(15, 40, 113, 0.32) 0%, rgba(0, 6, 73, 0.2) 100%);
+        
+                margin: 1rem;
+                transition: all 0.3s ease-in-out;
+        
+                svg {
+                    width: 20px;
+                    height: 20px;
+                    color: rgba(229, 247, 233, 0.8);
+        
+                }
+        
+                &:hover {
+                    background-color: rgba(9, 78, 206, 0.308);
+                    box-shadow: 0 0 2px rgba(119, 119, 119, 0.781);
+        
+                    svg {
+                        color: rgba(238, 166, 79, 0.8);
+                    }
+        
+                }
+            }
         }
 
-        &:hover {
-            background-color: rgba(9, 78, 206, 0.308) ;
-            box-shadow: 0 0 2px rgba(119, 119, 119, 0.781);
+    }
 
-            svg {
-                color: rgba(238, 166, 79, 0.8);
+   
+
+}
+
+@media screen and (max-width: 990px) {
+    .testimonial {
+        .container {
+
+
+            .testimonial-item {
+                width: 80%;
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                    margin-left: 1rem;
+                }
+
+                .content {
+
+                  
+                    
+                             
+                
+                                    p {
+                                        font-size: 1.2rem;
+                                        line-height: 2rem;
+                                        color: rgba(229, 247, 233, 0.8);
+                                        font-family: var(--font-base);
+                                        font-weight: 400;
+                                    }
+                                
+
+                }
             }
 
         }
     }
+   
+   
+   
 }
+
+@media screen and (max-width: 600px) {
+    .testimonial {
+        .container {
+            .testimonial-item {
+                width: 90%;
+    flex-direction: column;
+    height: 100%;
+                img {
+                    margin: 2rem 0;
+                    width: 150px;
+                    height: 150px;                 
+                }
+                .content {                                
+                                    p {
+                                        font-size: 1.15rem;
+                                        line-height: 1.52rem;
+                                        color: rgba(229, 247, 233, 0.8);                 
+                                        font-weight: 500;
+                                    }
+                                    div {
+                                        margin-bottom:2rem;
+                                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

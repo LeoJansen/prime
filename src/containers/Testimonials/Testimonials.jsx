@@ -23,10 +23,10 @@ const Testimonials = () => {
     
      
       {testimonials.length && (
-        <>
+        <div className="container">
           <div className="testimonial-item">
             <img src={testimonials[currentIndex].imgUrl} alt="testimonial"/>
-            <div className="app__testimonial-content">
+            <div className="content">
               <p className="gradient__text">{testimonials[currentIndex].feedback}</p>
               <div>
                 <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
@@ -42,7 +42,7 @@ const Testimonials = () => {
               <HiChevronRight />
             </div>
           </div>
-        </>
+        </div>
       )}
     </motion.div>
   );
