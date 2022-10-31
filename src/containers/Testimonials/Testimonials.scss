@@ -66,10 +66,11 @@
            
         
             .content {
+                width: 60%;
+                
+
         
-        
-                max-width: 100%;
-                padding: 0 2rem;
+               
                 text-align: left;
                 display: flex;
                 flex-direction: column;
@@ -160,6 +161,8 @@
 
 @media screen and (max-width: 990px) {
     .testimonial {
+        
+    
         .container {
 
 
@@ -201,15 +204,48 @@
     .testimonial {
         .container {
             .testimonial-item {
+           
                 width: 90%;
-    flex-direction: column;
-    height: 100%;
+                 flex-direction: column;
+              
                 img {
                     margin: 2rem 0;
                     width: 150px;
                     height: 150px;                 
                 }
-                .content {                                
+                .content {
+                    width: 90%;
+                    height: 12rem;
+                                             
+                                    p {
+                                        font-size: 1.15rem;
+                                        line-height: 1.52rem;
+                                        color: rgba(229, 247, 233, 0.8);                 
+                                        font-weight: 500;
+                                    }
+                                    div {
+                                        margin-bottom:2rem;
+                                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .testimonial {
+        height: 50rem;
+        background-size: cover;
+        .container {
+            .testimonial-item {
+           
+             
+              
+             
+                .content {
+                    width: 90%;
+                    height: 14rem;
+                                             
                                     p {
                                         font-size: 1.15rem;
                                         line-height: 1.52rem;
