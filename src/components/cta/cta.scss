@@ -1,138 +1,149 @@
 .gpt3__cta {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  padding: 2rem;
-  margin: 4rem;
-  border-radius: 0.2rem;
-  background: var(--gradient-bar);
-  box-shadow: 0 0 10px rgba(41, 42, 122, 0.8);
-
-  .content {
+  max-width: 100%;
+ 
+  .container {
+    width: 100%;
     display: flex;
-    flex: 2;
-
-    h3 {
-      font-family: var(--font-family);
-      font-weight: 600;
-      font-size: 22px;
-      line-height: 45px;
-      letter-spacing: 1.5px;
-      word-spacing: 2px;
-      color: #528088;
-    }
-
-  }
-
-  .btns {
-    display: flex;
-    flex: 1;
     justify-content: space-around;
-    transition: all 0.5s ease-in-out;
-    
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 0.2rem;
+    background: var(--gradient-bar);
+    box-shadow: 0 0 10px rgba(41, 42, 122, 0.8);
+    justify-self: center;
 
-
-    img {
+    .content {
       display: flex;
-      margin: 0;
+      flex: 2;
+  
+      h3 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 45px;
+        letter-spacing: 1.5px;
+        word-spacing: 2px;
+        color: #528088;
+      }
+  
+    }
+  
+    .btns {
+      display: flex;
+      flex: 1;
+      justify-content: space-around;
+      transition: all 0.5s ease-in-out;
       
-
-      width: 70px;
-      height: 70px;
-
-      transition: all 0.5s ease-in-out;
-    }
-
-    .instagram {
-      display: flex;
-      background-color: transparent;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-      border-radius: 1rem;
-      width: 70px;
-      height: 70px;
-      transition: all 0.5s ease-in-out;
-
+  
+  
       img {
-        filter: opacity(0.8) saturate(0.8);
+        display: flex;
+        margin: 0;
+        
+  
+        width: 70px;
+        height: 70px;
+  
+        transition: all 0.5s ease-in-out;
       }
-
-      &:hover {
-        box-shadow: 0 2px 6px rgba(250, 248, 248, 0.699);
-
+  
+      .instagram {
+        display: flex;
+        background-color: transparent;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 1rem;
+        width: 70px;
+        height: 70px;
+        transition: all 0.5s ease-in-out;
+  
         img {
-          filter: opacity(1) saturate(1);
+          filter: opacity(0.8) saturate(0.8);
         }
-
-
-
-
+  
+        &:hover {
+          box-shadow: 0 2px 6px rgba(250, 248, 248, 0.699);
+  
+          img {
+            filter: opacity(1) saturate(1);
+          }
+  
+  
+  
+  
+        }
       }
-    }
-
-    .whatsapp {
-      display: flex;
-      background-color: transparent;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-      border-radius: 5rem;
-      width: 68px;
-      height: 67px;
-      transition: all 0.5s ease-in-out;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        filter: opacity(0.8) saturate(0.8);
-      }
-
-
-      &:hover {
-        box-shadow: 0 0 8px rgba(255, 254, 254, 0.76);
-
+  
+      .whatsapp {
+        display: flex;
+        background-color: transparent;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        border-radius: 5rem;
+        width: 68px;
+        height: 67px;
+        transition: all 0.5s ease-in-out;
+        align-items: center;
+        justify-content: center;
+  
         img {
-          filter: opacity(1) saturate(1);
+          filter: opacity(0.8) saturate(0.8);
         }
-
-
-
-
+  
+  
+        &:hover {
+          box-shadow: 0 0 8px rgba(255, 254, 254, 0.76);
+  
+          img {
+            filter: opacity(1) saturate(1);
+          }
+  
+  
+  
+  
+        }
       }
-    }
-
-    .facebook {
-      display: flex;
-      background-color: transparent;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-      border-radius: 0.81rem;
-      width: 70px;
-      height: 70px;
-      transition: all 0.5s ease-in-out;
-      img {
-        filter: opacity(0.7) saturate(0.8);
-      }
-
-
-      &:hover {
-        box-shadow: 0 0 6px rgba(250, 248, 248, 0.699);
-
+  
+      .facebook {
+        display: flex;
+        background-color: transparent;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 0.81rem;
+        width: 70px;
+        height: 70px;
+        transition: all 0.5s ease-in-out;
         img {
-          filter: opacity(1) saturate(1);
+          filter: opacity(0.7) saturate(0.8);
         }
-
-
-
-
+  
+  
+        &:hover {
+          box-shadow: 0 0 6px rgba(250, 248, 248, 0.699);
+  
+          img {
+            filter: opacity(1) saturate(1);
+          }
+  
+  
+  
+  
+        }
       }
+  
+  
+  
     }
-
-
+  
+  
+  
+  
+  
 
   }
+  
 
-
-
-
-
+  
 
 }
 
@@ -148,29 +159,33 @@
 
 @media screen and (max-width: 1090px) {
   .gpt3__cta {
+    .container {
 
-    .content {
-      flex:1;
-    }
-    .btns {
-      flex:1; 
-      .instagram, .whatsapp, .facebook {
-        width: 65px;
-        height: 65px;
-
-        img {
+      .content {
+        flex:1;
+      }
+      .btns {
+        flex:1; 
+        .instagram, .whatsapp, .facebook {
           width: 65px;
           height: 65px;
+  
+          img {
+            width: 65px;
+            height: 65px;
+          }
+  
         }
-
+        
+        
+     
+  
       }
-      
-      
-   
-
+  
     }
 
-  }
+    }
+  
 
  
 }
@@ -178,55 +193,68 @@
 @media screen and (max-width: 990px) {
   .gpt3__cta {
 
-    
-    .btns {
-    
-      .instagram, .whatsapp, .facebook {
-        width: 60px;
-        height: 60px;
+    .container {
 
-        img {
+      .btns {
+    
+        .instagram, .whatsapp, .facebook {
           width: 60px;
           height: 60px;
+  
+          img {
+            width: 60px;
+            height: 60px;
+          }
+  
         }
-
+  
+        
+        
+        
+     
+  
       }
-
-      
-      
-      
-   
+  
+    }
+  
 
     }
 
-  }
-
+    
+   
  
 }
 
 @media screen and (max-width: 750px) {
   .gpt3__cta {
+    .container {
+  
 
+        .btns {
     
-    .btns {
+          .instagram, .whatsapp, .facebook {
+            width: 50px;
+            height: 50px;
     
-      .instagram, .whatsapp, .facebook {
-        width: 50px;
-        height: 50px;
-
-        img {
-          width: 50px;
-          height: 50px;
+            img {
+              width: 50px;
+              height: 50px;
+            }
+    
+          }
+    
+          
+          
+          
+       
+    
         }
 
-      }
-
       
-      
-      
-   
-
     }
+
+    
+   
 
   }
 
@@ -239,32 +267,47 @@
 
 @media screen and (max-width: 650px) {
   .gpt3__cta {
-    flex-direction: column;
-    padding: 2rem;
-    
-    .btns {
-      
-      padding: 1rem;
-      width: 100%;
-      justify-content: space-evenly;
-    
-      .instagram, .whatsapp, .facebook {
-        width: 50px;
-        height: 50px;
+    .container {
+      flex-direction: column;
+        padding: 2rem;
+      .content {
+        width: 100%;
+      }
+        
 
-        img {
-          width: 50px;
-          height: 50px;
+        .btns {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+      
+          padding: 1rem;
+          width: 100%;
+         
+        
+          .instagram, .whatsapp, .facebook {
+            width: 50px;
+            height: 50px;
+    
+            img {
+              width: 50px;
+              height: 50px;
+            }
+    
+          }
+    
+          
+          
+          
+       
+    
         }
 
-      }
-
       
       
-      
-   
-
     }
+    
+    
+   
 
   
 
@@ -273,24 +316,39 @@
 
 @media screen and (max-width: 550px) {
   .gpt3__cta {
-   padding: 1rem;
+  
    display: flex;
+   margin: 4rem 2rem;
    
-   .content {
-    
-    h3 {
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 45px;
-    }
+   .container {
+    padding: 1rem;
+    margin: 1rem 2rem;
+
+    .content {
+      padding: 1rem 0.5rem;
+      justify-content: center;
+      align-content: center;
+
+      h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+
+      }
+     }
+  
+     .btns{
+
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 1rem 0.5rem;
+      
+     }
+
    }
-   .bts{
-    display: flex;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    
-   }
+  
+  
       
   
       
@@ -302,53 +360,47 @@
 
   }
 
-  @media screen and (max-width: 500px) {
 
+  @media screen and (max-width: 400px) {
     .gpt3__cta {
-      display: flex;
-     margin: 2rem 2rem 2rem 2rem;
-     padding: 0.5rem;
-     display: flex;
-     align-items: stretch;
-     width: 80%;
-     
+    
   
      
-     
-     .content {
-      margin:0.5rem;
-      justify-content: center;
-
-
-      h3 {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 40px;
-      }
-     }
-     .btns {
-      display: flex;
-      height: 40px;
-      padding: 0.5rem;
+     .container {
+      padding: 0;
+   
+  
+      .content {
+ 
+  
+        h3 {
+          font-size: 16px;
+          line-height: 30px;
+      
+  
+        }
+       }
     
-    
-      .instagram, .whatsapp, .facebook {
-        width: 40px;
-        height: 40px;
+       .btns{
 
-        img {
+        .instagram, .whatsapp, .facebook {
           width: 40px;
           height: 40px;
+  
+          img {
+            width: 40px;
+            height: 40px;
+          }
+  
         }
-
-      }
-
-      
-      
-      
-   
-
-    }
+  
+  
+        
+       }
+  
+     }
+    
+    
         
     
         
@@ -359,3 +411,4 @@
     
   
     }
+  
