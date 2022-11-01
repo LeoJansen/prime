@@ -1,6 +1,6 @@
 export const card1 = {
     offscreen: {
-      x: 500,
+      
       opacity: 0
     }, onscreen: {
       x: [500,0,0,0],
@@ -13,7 +13,7 @@ export const card1 = {
   };
   export const card2 = {
     offscreen: {
-      x: 500,
+      x:0,
       opacity: 0
     }, onscreen: {
       x: [500,0,0,0],
@@ -27,7 +27,7 @@ export const card1 = {
   
   export const card3 = {
     offscreen: {
-      x: 500,
+      x:0,
       opacity: 0
     }, onscreen: {
       x: [500,0,0,0],
@@ -41,7 +41,7 @@ export const card1 = {
   
   export const card4 = {
     offscreen: {
-      x: 500,
+      x:0,
       opacity: 0
     }, onscreen: {
       x: [-500,0,0,0,0,0],
