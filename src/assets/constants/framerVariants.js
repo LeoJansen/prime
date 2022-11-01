@@ -1,6 +1,6 @@
 export const card1 = {
     offscreen: {
-      
+      x:0,
       opacity: 0
     }, onscreen: {
       x: [500,0,0,0],

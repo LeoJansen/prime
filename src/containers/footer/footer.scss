@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(180deg, rgb(1, 0, 23) 30%, rgb(0, 65, 187) 100%);
-  width: 100%;
+
   .container {
     display: flex;
     flex-direction: column;
@@ -30,14 +30,14 @@
       letter-spacing: 1px;
       margin-bottom: 1rem;
     }
-  
+
     .heading {
       display: flex;
       width: 90%;
       text-align: center;
       justify-content: center;
       margin: 4rem 0rem;
-  
+
       h1 {
         font-family: var(--font-family);
         font-weight: 800;
@@ -60,24 +60,24 @@
       cursor: pointer;
       transition: all 1s ease;
       width: 20rem;
-  
+
       svg {
         color: rgba(30, 65, 141, 0.8);
         margin-right: 1rem;
         font-size: 40px;
-  
+
       }
-  
+
       &:hover {
         background-color: rgba(23, 88, 199, 0.171);
-  
+
         svg,
         p {
           color: rgba(201, 206, 216, 0.6);
         }
-  
+
       }
-  
+
       p {
         font-size: 18px;
         font-family: var(--font-family);
@@ -98,7 +98,7 @@
       width: 100%;
       text-align: left;
       padding: 3rem;
-  
+
       .maps {
         display: flex;
         flex-direction: column;
@@ -109,26 +109,27 @@
           color: rgba(140, 179, 184, 0.651);
           font-size: 14px;
           letter-spacing: 1px;
-          
+
           line-height: 21px;
         }
+
         span {
           color: rgb(167, 155, 138);
         }
-  
+
       }
-  
+
       .funcionamento {
-  
-  
+
+
         div {
           display: flex;
           flex-direction: row;
-  
+
           justify-content: center;
-  
-  
-  
+
+
+
           h5 {
             width: 10%;
             font-family: var(--font-family);
@@ -140,42 +141,48 @@
             letter-spacing: 1px;
             color: rgba(239, 241, 245, 0.877);
           }
-  
+
           p {
             width: 40%;
             line-height: 1.12rem;
             color: rgba(132, 156, 204, 0.938);
-  
+
             text-align: start;
           }
         }
-  
+
       }
-  
-  
-  
+
+
+
       .dados {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-  
+
         p {
           text-align: end;
           color: #acb6ee;
           line-height: 1rem;
         }
       }
-  
+
     }
   }
+
   .copyright {
-    margin-top: 2rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 2rem 1rem 1rem 1rem;
+    flex-direction: column;
     text-align: center;
-    width: 90%;
+    font-family: var(--font-family);
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-feature-settings: "liga" off;
+    color: #a7a1a1cb;
+    width: 100%;
+    padding: 1.1rem;
+    align-items: flex-end;
 
     p {
       font-family: var(--font-family);
@@ -183,18 +190,17 @@
       line-height: 14px;
       letter-spacing: 1px;
       font-feature-settings: "liga" off;
-      color: #a7a1a1cb;
-     
     }
 
-    p:nth-child(1) {
+    a {
       align-self: center;
-      margin-left: 1rem;
     }
 
-    p:nth-child(3) {
-      align-self: flex-end;
+    p:last-child {
+      margin-top: 1rem;
+    
       font-size: 10px;
+      letter-spacing: 3px;
     }
   }
 }
@@ -204,11 +210,10 @@
 @media screen and (max-width: 1150px) {
   .gpt3__footer {
     .container {
-
       .heading {
         max-width: 90%;
         flex: 1;
-      
+
         h1 {
           font-size: 50px;
           line-height: 50px;
@@ -217,100 +222,65 @@
 
       .links {
         padding: 0;
-        
+
         div {
           h4 {
             font-size: 16px;
           }
         }
-        
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3__footer {
+    .container {
+      .links {
+        .maps {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          margin: 2rem 0 5rem 0;
+
+        }
+        .funcionamento {}
         
       }
     }
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 850px) {
   .gpt3__footer {
     .container {
-      width: 100%;
+      .links {
+        .maps {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          margin: 2rem 0 5rem 0;
 
-      .heading {
-        max-width: 90%;
-        flex: 1;
-        
-        
-      
-        h1 {
-          font-size: 50px;
-          line-height: 50px;
         }
-      }
-
-
+        .funcionamento {}
+        
       }
     }
   }
+}
 
-  @media screen and (max-width: 850px) {
-    .gpt3__footer {
-      .container {
-        width: 100%;
-  
-        .links {
-          padding: 0 0.21rem;
-          div {
-            h4 {
-              font-size: 15px;
-            }
-          }
-          
-          .maps {
-            width: 100%;
-            align-content: center;
-            align-items: center;
-            margin-bottom: 2rem;
-            
-
-
-          }
-          .funcionamento {
-            display: flex;
-            flex-direction: column;
-            padding: 0 0.2rem;
-
-            div {
-              display: flex;
-              width: 100%;
-              justify-content: flex-start;
-              h5 {
-                font-size: 12px;
-                
-              }
-              p{
-                font-size: 11px;
-                
-              }
-
-            }
-
-
-          }
-
-          .dados {
-            display: flex;
-            justify-content: flex-end;
-            h4 {
-              text-align: end;
-              
-            }
-            p {
-
-            }
-          }
+@media screen and (max-width: 550px) {
+  .gpt3__footer {
+    .container {
+      .links {
+        flex-direction: column;
+        align-items: center;
+        .dados {
+          margin-top: 2rem;
         }
-  
-  
-        }
+       
+        
       }
     }
+  }
+}

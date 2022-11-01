@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="links">
           <div className="maps">
             <p>Vem pra Prime?<span> A gente te ajuda.</span></p>
-       
+
             <div classname="google">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.429015677506!2d-43.0742912!3d-22.823611899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999b1449711601%3A0x5d5c67c62093940b!2sR.%20Cap.%20Jo%C3%A3o%20Manoel%2C%202555%20-%20Porto%20Novo%2C%20S%C3%A3o%20Gon%C3%A7alo%20-%20RJ%2C%2024435-550!5e0!3m2!1sen!2sbr!4v1666960892045!5m2!1sen!2sbr"
                 style={{ display: "flex", border: 0 }}
@@ -43,22 +43,19 @@ const Footer = () => {
           </div>
           <div className="dados">
             <h4>Prime Retífica de Cabeçotes</h4>
-            <p>Rua Capitão João Manoel, 2555, Porto Novo.</p>
-            <p> São Gonçalo RJ, 24431, Brasil</p>
+            <p>Rua Capitão João Manoel, 2555. </p>
+            <p>Porto Novo. São Gonçalo - RJ</p>
             <p>24435-550</p>
             <p>primeretifica@gmail.com</p>
             <p>(21) 97976-1500</p>
           </div>
         </div>
-       
-
       </div>
       <div className="copyright">
-          <p>Desenvolvido por Léo Jansen</p>
-          <p>www.leonardojansen.com</p>
-          <p>© 2022 Léo Jansen. Todos os Direitos Reservados.</p>
-        </div>
-
+        <p>Desenvolvido por Léo Jansen</p>
+        <p>© 2022 Léo Jansen. Todos os Direitos Reservados.</p>
+        <a href="https://www.leonardojansen.com" target="_blank"><p>www.leonardojansen.com</p></a>
+      </div>
     </motion.div>
   );
 };
