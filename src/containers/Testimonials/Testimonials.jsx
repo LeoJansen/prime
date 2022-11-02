@@ -30,7 +30,8 @@ const Testimonials = () => {
               <p className="gradient__text">{testimonials[currentIndex].feedback}</p>
               <div>
                 <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
-                <h5 className="p-text">{testimonials[currentIndex].company}</h5>
+                <h5 className="p-text">{testimonials[currentIndex].companyPosition}</h5>
+                <h5>{testimonials[currentIndex].company}</h5>
               </div>
             </div>
           </div>

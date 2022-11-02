@@ -1,15 +1,15 @@
 import jessica from '../jessica.jpg';
 import hamilton from '../hamilton.png';
 import mecanico from '../mecanico.jpg'
-
+import leandro from '../leandro.jpg';
 
 export const testimonials = [
     {
-        name: 'Jessica Pearson',
-        imgUrl: jessica,
-        companyPosition: 'Diretora Executiva',
+        name: 'Leandro Jansen',
+        imgUrl: leandro,
+        companyPosition: 'Preparador de Veículos',
         company: 'Pearson Specter',
-        feedback: 'Nesse local encontramos profissionalismo e seriedade. Todos os meus negócios da área são geridos pela Prime.'
+        feedback: 'O que eu acho da Prime? Quem é da área sabe o quão difícil é achar uma  retifica que dispenda de um enorme know-how em medidas e padrões originais do cabeçote, e que tal conhecimento é imprescindível para o desempenho e durabilidade de um motor.  Em síntese, uma empresa ímpar no seu ramo.'
 
     },
 

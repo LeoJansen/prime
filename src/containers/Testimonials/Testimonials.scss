@@ -92,13 +92,24 @@
                     color: rgba(108, 185, 248, 0.8);
                     margin-top: 2rem;
                 }
+                div {
+                    
+                    h5 {
+                        font-weight: 400;
+                        color: var(--gray-color);
+                        margin-top: 5px;
+                    }
 
-                h5 {
-                    font-weight: 400;
-                    color: var(--gray-color);
-                    margin-top: 5px;
+                    h5:last-child {
+                        font-weight: 800;
+                        color: rgba(255, 134, 64, 0.849);
+                        margin-top: 5px;
+                    }
+    
+
                 }
 
+              
 
             }
         }
