@@ -8,8 +8,8 @@ export const testimonials = [
         name: 'Leandro Jansen',
         imgUrl: leandro,
         companyPosition: 'Preparador de Veículos',
-        company: 'Pearson Specter',
-        feedback: 'O que eu acho da Prime? Quem é da área sabe o quão difícil é achar uma  retifica que dispenda de um enorme know-how em medidas e padrões originais do cabeçote, e que tal conhecimento é imprescindível para o desempenho e durabilidade de um motor.  Em síntese, uma empresa ímpar no seu ramo.'
+        company: 'RF Automecânica e House of Six',
+        feedback: 'O que eu acho da Prime? Quem é da área sabe o quão difícil é achar uma  retífica que despenda de um enorme know-how em medidas e padrões originais do cabeçote, e que tal conhecimento é imprescindível para o desempenho e durabilidade de um motor.  Em síntese, uma empresa ímpar no seu ramo.'
 
     },
 
