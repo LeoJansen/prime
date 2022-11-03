@@ -1,6 +1,7 @@
 import React from "react";
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { motion } from 'framer-motion';
+import leo from '../../assets/leo.png';
 
 import "./footer.scss";
 
@@ -52,7 +53,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>Desenvolvido por Léo Jansen</p>
+        <div >
+          <p>Desenvolvido por Léo Jansen</p>
+          <img src={leo} alt="leo" />
+          </div>
+          
         <p>© 2022 Léo Jansen. Todos os Direitos Reservados.</p>
         <a href="https://www.leonardojansen.com" target="_blank"><p>www.leonardojansen.com</p></a>
       </div>
