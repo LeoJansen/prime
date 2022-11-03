@@ -6,7 +6,6 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="App">
- 
       <div className="gradient__bg">
         <Navbar />
         <Header />
@@ -16,11 +15,6 @@ const App = () => {
       <Blog />
       <CTA />
       <Testimonials/>
-  
-      
-
-    
-    
       <Footer />
     </div>
   );
