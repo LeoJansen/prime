@@ -281,6 +281,7 @@
             .testimonial-item {
                 width: 80%;
                 flex-direction: column;
+                min-height: 36rem;
 
                 img {
                     width: 190px;
@@ -317,8 +318,10 @@
 
 @media screen and (max-width: 600px) {
     .testimonial {
+        background-size: cover;
         .container {
             .testimonial-item {
+                min-height: 37rem;
 
              
 
@@ -333,3 +336,25 @@
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+    .testimonial {
+    
+        .container {
+            .testimonial-item {
+                min-height: 41rem;
+
+             
+
+                img {
+                }
+
+                .content {
+
+
+                }
+            }
+        }
+    }
+}
+
