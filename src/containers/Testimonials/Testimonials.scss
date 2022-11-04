@@ -8,11 +8,8 @@
     background-position: right;
     background-color: transparent;
     font-family: var(--font-family);
-
-
     height: 60rem;
     display: flex;
-
     justify-content: center;
 
     .container {
@@ -20,8 +17,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-
 
         .testimonial-item {
             width: 70%;
@@ -34,13 +29,9 @@
             color: rgba(150, 150, 150, 0.8);
             display: flex;
             justify-content: space-around;
-
             align-items: center;
-
             flex-direction: row;
-
             border-radius: 15px;
-
             transition: all 0.3s ease-in-out;
 
             img {
@@ -49,7 +40,6 @@
                 object-fit: cover;
                 border-radius: 50%;
                 margin-left: 2rem;
-
             }
 
             @media screen and (min-width: 2000px) {
@@ -71,7 +61,6 @@
                 text-align: left;
                 display: flex;
                 flex-direction: column;
-
                 justify-content: space-around;
                 align-items: flex-start;
                 align-content: stretch;
@@ -91,7 +80,7 @@
                         -webkit-text-fill-color: transparent;
                         font-size: 1.2rem;
                         line-height: 2rem;
-                        text-align:justify;
+                        text-align: justify;
                         font-weight: 600;
                     }
                 }
@@ -99,16 +88,10 @@
                 .personal-data {
                     display: flex;
                     height: 30%;
-                  
-                    
                     align-self: flex-end;
                     flex-direction: column;
                     align-items: flex-end;
                     align-content: stretch;
-                    
-                  
-                  
-
 
                     h4 {
                         font-weight: 600;
@@ -127,14 +110,7 @@
                         color: rgba(255, 134, 64, 0.849);
                         margin-top: 5px;
                     }
-
                 }
-
-
-
-
-
-
             }
         }
 
@@ -196,56 +172,28 @@
 
 @media screen and (max-width: 1200px) {
     .testimonial {
-
-
         .container {
-
-
             .testimonial-item {
-            
-
                 .content {
-
                     .testimonial-text {
-
                         p {
                             font-size: 1.1rem;
                             line-height: 2rem;
-                           
+
                         }
-
                     }
-
-
-
-
-
-                  
-
-
                 }
             }
 
         }
     }
-
-
-
 }
-
-
 
 
 @media screen and (max-width: 910px) {
     .testimonial {
-
-
         .container {
-
-
             .testimonial-item {
-                
-
                 img {
                     width: 190px;
                     height: 190px;
@@ -253,18 +201,13 @@
                 }
 
                 .content {
-
                     .testimonial-text {
-
                         p {
                             font-size: 1rem;
                             line-height: 1.8rem;
-                           
+
                         }
-
                     }
-
-                  
                 }
             }
         }
@@ -273,11 +216,7 @@
 
 @media screen and (max-width: 800px) {
     .testimonial {
-
-
         .container {
-
-
             .testimonial-item {
                 width: 80%;
                 flex-direction: column;
@@ -287,51 +226,32 @@
                     width: 190px;
                     height: 190px;
                     margin: 2rem 0;
-
                 }
 
                 .content {
-                    width:90%;
+                    width: 90%;
 
                     .testimonial-text {
-
                         p {
                             font-size: 1rem;
                             line-height: 1.8rem;
-                           
                         }
-                        
-
                     }
 
                     margin-bottom: 2rem;
-
                 }
             }
-
         }
     }
-
-
-
 }
 
 @media screen and (max-width: 600px) {
     .testimonial {
         background-size: cover;
+
         .container {
             .testimonial-item {
                 min-height: 37rem;
-
-             
-
-                img {
-                }
-
-                .content {
-
-
-                }
             }
         }
     }
@@ -339,22 +259,11 @@
 
 @media screen and (max-width: 450px) {
     .testimonial {
-    
+
         .container {
             .testimonial-item {
                 min-height: 41rem;
-
-             
-
-                img {
-                }
-
-                .content {
-
-
-                }
             }
         }
     }
 }
-

@@ -1,37 +1,29 @@
-
-
-body 
-{
-  background:black;
-
-
- 
+body {
+  background: black;
 }
 
 .App {
   margin: 0;
   overflow-x: hidden;
-  
   scroll-behavior: smooth;
-  
-  
+
   /* ff 3.6+ */
-  background:-moz-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%); 
+  background: -moz-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
+  background: -webkit-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
 
   /* opera 11.10+ */
-  background:-o-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
+  background: -o-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
 
   /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#002422', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#002422', GradientType=1);
 
   /* ie 10+ */
-  background:-ms-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
+  background: -ms-linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
 
   /* global 94%+ browsers support */
-  background:linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
+  background: linear-gradient(176deg, rgba(0, 36, 34, 1) 2%, rgba(0, 24, 53, 1) 10%, rgba(0, 26, 53, 1) 31%, rgba(0, 0, 0, 1) 40%, rgba(0, 6, 30, 1) 84%, rgba(0, 0, 0, 1) 92%);
 
 
 }
@@ -42,58 +34,48 @@ a {
 }
 
 .gradient__bg {
-  background: -moz-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: -moz-radial-gradient(circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%);
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: -webkit-radial-gradient(circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%);
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: -o-radial-gradient(circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%);
 
   /* ie 10+ */
-  background: -ms-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: -ms-radial-gradient(circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%);
 
   /* global 92%+ browsers support */
-  background: radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: radial-gradient(circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%);
 }
 
 .gradient__bg2 {
-  
+
 
   /* ff 3.6+ */
-  background:-moz-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
+  background: -moz-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
+  background: -webkit-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
+  background: -o-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
+  background: -ms-radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 16, 1) 1%, rgba(0, 7, 40, 1) 100%);
 
 }
 
@@ -118,13 +100,8 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-
-
-
-
 @media screen and (max-width: 350px) {
   .App {
     display: none;
   }
-
 }
