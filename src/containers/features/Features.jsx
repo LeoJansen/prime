@@ -14,8 +14,8 @@ const featuresData = [
 const Features = () => {
   return (
     <motion.div className='gpt3__features'
-    whileInView={{ opacity: [0, 1] }}
-    transition={{ duration: 1 }}
+    whileInView={{ opacity: [0, 0, 1] }}
+    transition={{ duration: 0.5 }}
     id="feature"
     >
       <div className='heading'>
