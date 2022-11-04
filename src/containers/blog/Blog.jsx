@@ -10,8 +10,8 @@ import './blog.scss'
 const Blog = () => {
   return (
     <motion.div className="gpt3__blog" id="blog"
-      whileInView={{ opacity: [0, 1] }}
-      transition={{ duration: 1 }}>
+      whileInView={{ opacity: [0, 0, 1] }}
+      transition={{ duration: 0.5 }}>
       <div className="heading">
         <h1 className="title"> Quer ter uma ideia de como funciona um <span>serviço qualificado</span> de retífica de motor?</h1>
       </div>

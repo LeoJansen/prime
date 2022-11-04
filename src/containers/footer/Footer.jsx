@@ -8,8 +8,8 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <motion.div className="gpt3__footer" id="footer"
-      whileInView={{ opacity: [0, 1] }}
-      transition={{ duration: 1 }}>
+      whileInView={{ opacity: [0, 0, 1] }}
+      transition={{ duration: 0.5 }}>
       <div className="container">
         <div className="heading">
           <h1 className="gradient__text">
